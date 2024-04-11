@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Autokomis</h1>
+
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Dane Samochodu</legend>
+                        <label for="marka">
+                            Marka samochodu <select name="marka" id="marka">
+
+                                <option value="Honda">Honda</option>
+                                <option value="Nissan">Nissan</option>
+                                <option value="Toyota">Toyota</option>
+                            </select>
+                        </label>
+                        <label for="model">
+                            Model Samochodu <input type="text" name="model" id="model">
+                        </label>
+                        <label for="rok">
+                            Rok produkcji <input type="date" name="rok" id="rok">
+                        </label>
+                        <label for="kolor">
+                            Kolor: <input type="text" name="kolor" id="kolor">
+                        </label>
+                        <label for="przebieg">
+                            Przebieg: <input type="number" name="przebieg" id="przebieg"> tyś. km
+                        </label>
+                </fieldset>
+                <button id="btn1">Dodaj samochód</button>
+                <button id="btn2">Szukaj samochodu</button>
+                <button id="btn3">Wyświetl wszystkie</button>
+            </form>
+        </main>
+        <aside>
+            <div class="display1">
+
+            </div>
+        </aside>
+        <footer>&copy; Me</footer>
+    </div>
+</body>
+</html>
